@@ -19,6 +19,7 @@
                     colors: {
                         clifford: '#da373d',
                         'slider-bg': 'rgba(231, 111, 81, 0.1)',
+                        'btn-slider': '#E76F51',
                     }
                 }
             }
@@ -70,15 +71,16 @@
         </nav>
         <!-- Nav bar Ends -->
         <!-- Start carousels -->
-        <div class="carousel w-full ">
+        <div class="carousel w-full lg:mt-12 lg:mb-40 ">
             <div id="slide1" class="carousel-item relative w-full lg:h-[550px] bg-slider-bg ">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24">
-                    <div class="space-y-7 flex-1">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center justify-center">
+                    <div class="space-y-7 flex-1 items-center justify-center">
                         <h2 class="lg:text-6xl font-bold">Ride-on R15 V4<br> with Smile</h2>
                         <p class="text-base font-light">Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn bg-btn-slider text-white">Purchase</button>
                     </div>
-                    <div class="flex-1">
+                    <div class="flex-1 items-center justify-center">
                         <img src="images/slider/bike1.png" class="lg:w-3/5" />
                     </div>
                 </div>
@@ -89,11 +91,12 @@
                 </div>
             </div>
            <div id="slide2" class="carousel-item relative w-full lg:h-[550px] bg-slider-bg ">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center justify-center">
                     <div class="space-y-7 flex-1">
                         <h2 class="lg:text-6xl font-bold">Ride-on R15 V4<br> with Smile</h2>
                         <p class="text-base font-light">Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn bg-btn-slider text-white">Purchase</button>
                     </div>
                     <div class="flex-1">
                         <img src="images/slider/bike2.png" class="lg:w-3/5" />
@@ -105,11 +108,12 @@
                 </div>
             </div>
           <div id="slide3" class="carousel-item relative w-full lg:h-[550px] bg-slider-bg ">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center justify-center">
                     <div class="space-y-7 flex-1">
                         <h2 class="lg:text-6xl font-bold">Ride-on R15 V4<br> with Smile</h2>
                         <p class="text-base font-light">Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn bg-btn-slider text-white">Purchase</button>
                     </div>
                     <div class="flex-1">
                         <img src="images/slider/bike3.png" class="lg:w-3/5" />
@@ -121,11 +125,12 @@
                 </div>
             </div>
             <div id="slide4" class="carousel-item relative w-full lg:h-[550px] bg-slider-bg ">
-                <div class="flex flex-col lg:flex-row p-4 lg:p-24">
+                <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center justify-center">
                     <div class="space-y-7 flex-1">
                         <h2 class="lg:text-6xl font-bold">Ride-on R15 V4<br> with Smile</h2>
                         <p class="text-base font-light">Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn bg-btn-slider text-white">Purchase</button>
                     </div>
                     <div class="flex-1">
                         <img src="images/slider/bike4.png" class="lg:w-3/5" />
@@ -137,9 +142,49 @@
                 </div>
             </div>
         </div>
+        <!-- End of carousels -->
     </header>
     <main>
-
+        <!-- Fetured Bikes start -->
+        <section class="lg:mb-32">
+            <div>
+                <h3 class="font-semibold text-5xl text-center">Fetured Bikes In This Year</h3>
+                <p class="font-semibold text-sm text-center text-[#E76F51] mb-3 lg:mb-12">Best bike collection</p>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-3 md:flex-wrap lg:flex-nowrap items-center justify-center md:gap-4 lg:gap-32">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+            </div>
+        </section>
+         <!-- Fetured Bikes End -->
+        
+         <!-- Latest News start -->
+        <section>
+            <div>
+                <h3 class="font-semibold text-5xl text-center mb-12">Latest News</h3>
+            </div>
+            <div class="lg:flex justify-center gap-5">
+                <div class=" space-y-10 rounded border-2 border-inherit p-5">
+                    <img src="images/others/latest1.png" alt="">
+                    <h3 class="font-semibold text-2xl">Ducati XDIAVEL S-73</h3>
+                    <p class="text-sm text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Lacus, fermentum amet<br> faucibus sed id nisi lectus at.</p>
+                    <button class="p-4 rounded-md bg-btn-slider text-white">Read More</button>
+                </div>
+                <div class=" space-y-10 rounded border-2 border-inherit p-5">
+                    <img src="images/others/latest1.png" alt="">
+                    <h3 class="font-semibold text-2xl">Ducati XDIAVEL S-73</h3>
+                    <p class="text-sm text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Lacus, fermentum amet<br> faucibus sed id nisi lectus at.</p>
+                    <button class="p-4 rounded-md bg-btn-slider text-white">Read More</button>
+                </div>
+                <div class=" space-y-10 rounded border-2 border-inherit p-5">
+                    <img src="images/others/latest1.png" alt="">
+                    <h3 class="font-semibold text-2xl">Ducati XDIAVEL S-73</h3>
+                    <p class="text-sm text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Lacus, fermentum amet<br> faucibus sed id nisi lectus at.</p>
+                    <button class="p-4 rounded-md bg-btn-slider text-white">Read More</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
